@@ -1,0 +1,139 @@
+#root{
+    display: contents !important;
+}
+
+
+.custom-img-box{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px;
+    border-radius: 5px;
+}
+
+.justify-spacetree-between{
+    justify-content: space-between;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.b-1px-dashed{
+  border: 1px dashed #e7e4e4;
+}
+
+.w-120px{
+  width:120px;
+}
+
+
+
+input.no-valdiations {
+  background: var(--bs-gray-100) !important;
+  padding: 0.775rem 1rem !important;
+}
+
+.unset-custom{
+  -webkit-appearance: inherit;
+  cursor: pointer;
+  border: 1px;
+  padding: 5px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 4px;
+  margin-bottom: 8px !important;
+  
+}
+
+.mr-2{
+  margin-right:4px;
+}
+
+.cmb-1{
+  margin-bottom:2px;
+}
+
+.custom-p{
+  margin-bottom:0;
+}
+
+.subchild.active {
+  border: 1px solid;
+  padding: 5px;
+  border-radius: 6px;
+  
+}
+
+.subchild {
+  border: 1px;
+  padding: 5px;
+  border-radius: 6px;
+  margin-bottom:0;
+  transition: all 444ms ease;
+}
+
+/* sticky content */
+
+.aside.aside-fixed-on {
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  z-index: 98;
+  width: 425px;
+}
+
+.pl-aside-custom {
+  padding-left: 425px;
+  overflow-y: auto;
+}
+
+.pl-aside-custom-100 {
+  padding-left: 100px;
+  overflow-y: auto;
+}
+
+.header.header-sticky {
+  transition: height 666ms ease;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 97;
+  background-color: var(--bs-header-desktop-fixed-bg-color);
+  box-shadow: var(--bs-header-desktop-fixed-box-shadow);
+  height: 65px;
+  padding: 0;
+}
+
+.pl-header-custom{
+  padding-left: 425px !important;
+}
+
+.pl-header-custom-100{
+  padding-left: 100px !important;
+}
+
+.pt-custom{
+  padding-top:65px;
+}
+
+
+
+
+
